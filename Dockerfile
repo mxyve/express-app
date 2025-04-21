@@ -1,5 +1,5 @@
 FROM node:20
-WROKDIR /app
+WORKDIR /app
 COPY . .
 RUN npm config set registry https://registry.npmmirror.com
 RUN npm install
